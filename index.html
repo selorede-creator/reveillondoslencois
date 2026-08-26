@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Réveillon dos Lençóis 2026/27 — A Travessia das Águas · Atins, Maranhão</title>
+<meta name="description" content="O réveillon mais mágico do Brasil acontece em Atins, no coração dos Lençóis Maranhenses. Uma travessia de festas entre dunas, rio e mar. Garanta seu lugar na virada 2026/27.">
+<meta property="og:title" content="Réveillon dos Lençóis 2026/27 — A Travessia das Águas">
+<meta property="og:description" content="Aqui você entra inteiro, e sai diferente. A virada mais mágica do Brasil, em Atins — Lençóis Maranhenses.">
+<meta property="og:image" content="assets/img/brand/og-travessia.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#060919">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Festival",
+  "name": "Réveillon dos Lençóis 2026/27",
+  "description": "A travessia das águas: o réveillon mais mágico do Brasil, em Atins — Lençóis Maranhenses.",
+  "startDate": "2026-12-29",
+  "endDate": "2027-01-02",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "Atins",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barreirinhas",
+      "addressRegion": "MA",
+      "addressCountry": "BR"
+    }
+  },
+  "image": "assets/img/brand/og-travessia.jpg",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/LimitedAvailability",
+    "priceCurrency": "BRL",
+    "url": "https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942"
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+<style>
+:root{
+  --night:#060919;
+  --night-2:#0a1026;
+  --night-3:#131b3d;
+  --amber:#ffb43a;
+  --amber-soft:#f0a944;
+  --gold:#f2d9a4;
+  --sand:#ddd5c9;
+  --cream:#f4f1e8;
+  --muted:#9aa1c4;
+  --water:#8fc3e8;
+  --lilac:#b7b3ee;
+  --line:rgba(183,179,238,.16);
+  --serif:'Instrument Serif',Georgia,serif;
+  --sans:'Instrument Sans',-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--night);
+  color:var(--cream);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.65;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--amber);color:var(--night)}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:4px}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+
+/* ---------- grain ---------- */
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:2000;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+}
+
+/* ---------- splash ---------- */
+.splash{
+  position:fixed;inset:0;z-index:3000;background:var(--night);
+  display:flex;align-items:center;justify-content:center;
+  transition:opacity .4s ease,visibility .4s ease;
+}
+.splash img{
+  width:min(140px,32vw);height:auto;
+  animation:splashIn .55s cubic-bezier(.16,1,.3,1) both;
+  filter:drop-shadow(0 0 34px rgba(183,179,238,.35));
+}
+@keyframes splashIn{from{opacity:0;transform:scale(.82)}to{opacity:1;transform:scale(1)}}
+.splash.out{opacity:0;visibility:hidden}
+
+/* ---------- type helpers ---------- */
+.serif{font-family:var(--serif);font-weight:400}
+.label{
+  font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--lilac);font-weight:600;
+  display:flex;align-items:center;gap:.9rem;
+}
+.label::before{content:'';width:34px;height:1px;background:var(--lilac);opacity:.6}
+.section-title{
+  font-family:var(--serif);font-size:clamp(2.4rem,5.4vw,4.2rem);
+  line-height:1.06;letter-spacing:-.01em;margin:1.1rem 0 1.4rem;
+}
+.section-title em{font-style:italic;color:var(--amber)}
+.lead{color:var(--muted);max-width:56ch;font-size:1.02rem}
+
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+section{padding:clamp(5rem,10vw,8.5rem) 0;position:relative}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.22s}.rv.d3{transition-delay:.34s}
+
+/* ---------- header ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  transition:background .4s,border-color .4s,padding .4s;
+  border-bottom:1px solid transparent;
+}
+header.solid{background:rgba(6,9,25,.86);backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:1.1rem clamp(1.25rem,4vw,3rem);max-width:1400px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:.7rem}
+.logo-simbolo{height:26px;width:auto}
+.logo-txt{font-size:.66rem;letter-spacing:.3em;text-transform:uppercase;color:var(--sand)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.55;transform:scale(.85)}}
+.nav-links{display:flex;gap:2.2rem;list-style:none}
+.nav-links a{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sand);opacity:.85;transition:.3s}
+.nav-links a:hover{color:var(--amber);opacity:1}
+.nav-right{display:flex;align-items:center;gap:1rem}
+.nav-social{display:flex;gap:.45rem;align-items:center}
+.soc{width:36px;height:36px;border-radius:50%;border:1px solid rgba(183,179,238,.28);display:inline-flex;align-items:center;justify-content:center;color:var(--sand);transition:.3s;background:rgba(6,9,25,.35);backdrop-filter:blur(6px)}
+.soc:hover{border-color:var(--amber);color:var(--amber);box-shadow:0 0 18px rgba(255,180,58,.25)}
+.soc svg{width:16px;height:16px;fill:currentColor}
+.btn{
+  display:inline-flex;align-items:center;gap:.6rem;
+  background:var(--amber);color:var(--night);
+  font-family:var(--sans);font-weight:600;font-size:.8rem;
+  letter-spacing:.12em;text-transform:uppercase;
+  padding:.85rem 1.7rem;border-radius:100px;border:1px solid var(--amber);
+  transition:.35s;white-space:nowrap;cursor:pointer;
+}
+.btn:hover{background:transparent;color:var(--amber);box-shadow:0 0 34px rgba(255,180,58,.28)}
+.btn.ghost{background:transparent;color:var(--gold);border-color:rgba(232,197,136,.4)}
+.btn.ghost:hover{border-color:var(--amber);color:var(--amber)}
+.btn.big{padding:1.15rem 2.5rem;font-size:.88rem}
+
+/* ---------- hero ---------- */
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:0;position:relative;isolation:isolate}
+.hero-bg{position:absolute;inset:0;z-index:-2;overflow:hidden}
+.hero-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition:opacity 1.4s ease}
+.hero-bg img.is-active{opacity:1;animation:heroScale 9s ease-out forwards}
+.hero-dots{position:absolute;right:clamp(1.1rem,3vw,2.2rem);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.7rem;z-index:2}
+.hero-dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:rgba(244,241,232,.38);cursor:pointer;transition:.35s}
+.hero-dots button.on{background:var(--amber);box-shadow:0 0 12px rgba(255,180,58,.9);transform:scale(1.25)}
+.hero-dots button:hover{background:var(--gold)}
+@keyframes heroScale{from{transform:scale(1.12)}to{transform:scale(1)}}
+.hero::before{
+  content:'';position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(6,9,25,.5) 0%,rgba(6,9,25,.08) 34%,rgba(6,9,25,.66) 74%,var(--night) 100%);
+}
+.hero-inner{padding:0 clamp(1.25rem,4vw,3rem) clamp(2.4rem,5vw,4rem);max-width:1400px;margin:0 auto;width:100%}
+.hero-kicker{
+  font-size:.72rem;letter-spacing:.4em;text-transform:uppercase;color:var(--cream);
+  display:flex;align-items:center;gap:1rem;margin-bottom:1.6rem;
+  text-shadow:0 1px 18px rgba(6,9,25,.6);
+}
+.hero-kicker .star{color:var(--amber)}
+.hero h1{margin:0}
+.hero h1 img{
+  width:min(620px,84vw);height:auto;
+  filter:drop-shadow(0 10px 44px rgba(6,9,25,.65));
+}
+.hero-urgency{
+  display:inline-flex;align-items:center;gap:.6rem;margin-top:1.6rem;
+  font-size:.78rem;letter-spacing:.08em;color:var(--gold);
+  border:1px solid rgba(232,197,136,.35);border-radius:100px;
+  padding:.55rem 1.15rem;background:rgba(6,9,25,.5);backdrop-filter:blur(8px);
+}
+.hero-urgency .dot{
+  width:7px;height:7px;border-radius:50%;background:var(--amber);
+  box-shadow:0 0 12px rgba(255,180,58,.9);animation:pulse 2.2s ease-in-out infinite;
+}
+.hero-sub{
+  display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;
+  gap:1.6rem;margin-top:2.2rem;padding-top:1.8rem;border-top:1px solid rgba(244,236,220,.22);
+}
+.hero-meta{display:flex;flex-wrap:wrap;gap:clamp(1.4rem,4vw,3.4rem)}
+.hero-meta div span{display:block}
+.hero-meta .k{font-size:.64rem;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+.hero-meta .v{font-family:var(--serif);font-size:1.25rem;color:var(--cream)}
+.hero-ctas{display:flex;gap:.9rem;flex-wrap:wrap}
+
+/* ---------- marquee ---------- */
+.marquee{border-block:1px solid var(--line);padding:1.05rem 0;overflow:hidden;background:var(--night-2)}
+.marquee-track{display:flex;gap:3.4rem;width:max-content;animation:mq 30s linear infinite}
+.marquee-track span{
+  font-family:var(--serif);font-size:1.05rem;letter-spacing:.06em;color:var(--sand);
+  display:flex;align-items:center;gap:3.4rem;white-space:nowrap;
+}
+.marquee-track .s{color:var(--amber);font-size:.8rem}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- manifesto ---------- */
+.manifesto{background:var(--night)}
+.manifesto-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2.5rem,6vw,5.5rem);align-items:center}
+.manifesto-text p{
+  font-family:var(--serif);font-size:clamp(1.5rem,2.7vw,2.15rem);
+  line-height:1.38;color:var(--cream);margin-bottom:1.6em;
+}
+.manifesto-text p em{font-style:italic;color:var(--amber)}
+.manifesto-text p.small{font-family:var(--sans);font-size:1rem;color:var(--muted);line-height:1.7;max-width:52ch}
+.manifesto-img{position:relative}
+.manifesto-img img{border-radius:14px;aspect-ratio:3/4.1;object-fit:cover;width:100%}
+.manifesto-img::after{
+  content:'✦';position:absolute;top:-1.4rem;right:-.4rem;color:var(--amber);
+  font-size:1.6rem;text-shadow:0 0 30px rgba(255,180,58,.6);
+}
+.manifesto-img figcaption{
+  margin-top:.9rem;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);
+}
+
+/* ---------- pilares ---------- */
+.pilares{background:var(--night-2);border-block:1px solid var(--line)}
+.pilares-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:3rem}
+.pilar{background:var(--night-2);padding:2.2rem 1.8rem;transition:background .4s}
+.pilar:hover{background:var(--night-3)}
+.pilar .n{font-family:var(--serif);font-style:italic;color:var(--amber);font-size:.95rem;opacity:.85}
+.pilar h3{font-family:var(--serif);font-weight:400;font-size:1.45rem;margin:.7rem 0 .55rem;letter-spacing:.01em}
+.pilar p{font-size:.88rem;color:var(--muted);line-height:1.6}
+
+/* ---------- festas ---------- */
+.festas-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:1.5rem;margin-bottom:3rem}
+.festas-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.2rem,2.5vw,2rem)}
+.festa{
+  position:relative;border-radius:16px;overflow:hidden;isolation:isolate;
+  aspect-ratio:4/4.6;display:flex;align-items:flex-end;
+}
+.festa img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transition:transform 1.1s cubic-bezier(.16,1,.3,1)}
+.festa:hover img{transform:scale(1.055)}
+.festa::before{content:'';position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(6,9,25,0) 40%,rgba(6,9,25,.88) 100%)}
+.festa-info{position:relative;z-index:1;padding:1.8rem;width:100%}
+.festa-info .tag{
+  display:inline-block;font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--amber);border:1px solid rgba(255,180,58,.45);border-radius:100px;
+  padding:.32rem .85rem;margin-bottom:.85rem;background:rgba(6,9,25,.45);backdrop-filter:blur(6px);
+}
+.festa-info h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.05}
+.festa-info p{color:var(--sand);font-size:.9rem;margin-top:.5rem;max-width:42ch;opacity:.92}
+
+/* ---------- programação ---------- */
+.prog{background:var(--night-2);border-block:1px solid var(--line)}
+.prog-intro{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);align-items:end;margin-bottom:clamp(3rem,6vw,4.5rem)}
+.prog-intro-text p{font-family:var(--serif);font-size:clamp(1.25rem,2.1vw,1.65rem);line-height:1.42;color:var(--cream);margin-bottom:1.1em}
+.prog-intro-text p em{font-style:italic;color:var(--amber)}
+.prog-intro-text p.small{font-family:var(--sans);font-size:.98rem;color:var(--muted);line-height:1.7;max-width:54ch;margin-bottom:0}
+.prog-pills{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+.prog-pills span{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(232,197,136,.32);border-radius:100px;padding:.45rem .95rem}
+.dia{display:grid;grid-template-columns:190px 1fr;gap:clamp(1.5rem,4vw,3.5rem);padding:clamp(2rem,4vw,3rem) 0;border-top:1px solid var(--line)}
+.dia:last-of-type{border-bottom:1px solid var(--line)}
+.dia-data{position:sticky;top:96px;align-self:start}
+.dia-data .d{font-family:var(--serif);font-size:clamp(3rem,6vw,4.6rem);line-height:.95;color:var(--cream)}
+.dia-data .m{display:block;font-size:.66rem;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);margin-top:.55rem}
+.dia-data .w{display:block;font-size:.8rem;color:var(--muted);margin-top:.25rem}
+.evento{padding:1.7rem 0;border-top:1px dashed rgba(183,179,238,.2)}
+.evento:first-child{border-top:0;padding-top:0}
+.evento:last-child{padding-bottom:0}
+.evento-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 1.1rem;margin-bottom:.6rem}
+.evento .h{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--amber);font-weight:600}
+.evento h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.55rem,2.6vw,2.15rem);line-height:1.1}
+.evento h3 em{font-style:italic;color:var(--amber)}
+.evento p{color:var(--muted);font-size:.93rem;max-width:64ch}
+.free{display:inline-block;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--night);background:var(--amber);border-radius:100px;padding:.3rem .7rem;font-weight:600;vertical-align:middle}
+.lineup{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-top:1.1rem}
+.lineup .k{font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;color:var(--lilac);margin-right:.25rem}
+.lineup .a{font-size:.74rem;letter-spacing:.05em;color:var(--sand);border:1px solid var(--line);border-radius:100px;padding:.34rem .85rem;background:rgba(6,9,25,.45)}
+.lineup .a.tbc{color:var(--muted);border-style:dashed}
+.atos{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.5rem}
+.ato{border:1px solid var(--line);border-radius:16px;padding:1.6rem;background:rgba(6,9,25,.55);display:flex;flex-direction:column}
+.ato .n{font-family:var(--serif);font-style:italic;color:var(--amber);font-size:.95rem}
+.ato h4{font-family:var(--serif);font-weight:400;font-size:1.5rem;line-height:1.1;margin:.5rem 0 .6rem}
+.ato p{font-size:.88rem}
+.ato .note{margin-top:auto;padding-top:1rem;font-size:.76rem;color:var(--gold);opacity:.85}
+.prog-cta{margin-top:clamp(2.5rem,5vw,3.5rem);display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;justify-content:space-between}
+.prog-note{font-size:.82rem;color:var(--muted);max-width:52ch}
+
+/* ---------- galeria ---------- */
+.galeria{background:var(--night-2);border-block:1px solid var(--line);overflow:hidden}
+.galeria .wrap{margin-bottom:2.6rem}
+.strip{display:flex;gap:1.1rem;padding:0 clamp(1.25rem,4vw,3rem);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.strip figure{
+  flex:0 0 min(320px,72vw);scroll-snap-align:start;border-radius:12px;overflow:hidden;position:relative;
+  background:var(--night-3);
+}
+.strip img{aspect-ratio:3/4;object-fit:cover;width:100%;transition:transform 1s cubic-bezier(.16,1,.3,1)}
+.strip figure:hover img{transform:scale(1.05)}
+.strip-hint{margin-top:1.4rem;text-align:center;font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- lotes ---------- */
+.lotes{position:relative;isolation:isolate;overflow:hidden}
+.lotes-bg{position:absolute;inset:0;z-index:-2}
+.lotes-bg img{width:100%;height:100%;object-fit:cover;object-position:center 38%;opacity:.5}
+.lotes::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,var(--night) 0%,rgba(6,9,25,.72) 40%,rgba(6,9,25,.85) 100%)}
+.lotes-inner{text-align:center;max-width:820px;margin:0 auto}
+.lotes-inner .label{justify-content:center}
+.lotes-inner .label::after{content:'';width:34px;height:1px;background:var(--amber);opacity:.6}
+.countdown{display:flex;justify-content:center;gap:clamp(1rem,4vw,2.6rem);margin:2.6rem 0}
+.cd-item .num{
+  font-family:var(--serif);font-size:clamp(2.6rem,7vw,4.6rem);line-height:1;color:var(--cream);
+  font-variant-numeric:tabular-nums;
+}
+.cd-item .u{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-top:.5rem;display:block}
+.lote-track{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:3rem 0 2.6rem;text-align:left}
+.lote{background:rgba(6,9,25,.82);backdrop-filter:blur(8px);padding:1.5rem 1.4rem;position:relative}
+.lote .k{display:block;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.lote .v{display:block;font-family:var(--serif);font-size:1.3rem;margin-top:.45rem}
+.lote.active{background:rgba(19,27,61,.92)}
+.lote.active::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--amber);box-shadow:0 0 18px rgba(255,180,58,.7)}
+.lote.active .k{color:var(--amber)}
+.lote .st{display:inline-block;margin-top:.7rem;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;padding:.28rem .7rem;border-radius:100px;border:1px solid rgba(168,152,119,.4);color:var(--muted)}
+.lote.active .st{border-color:rgba(255,180,58,.55);color:var(--amber)}
+.lotes-note{font-size:.85rem;color:var(--muted);max-width:52ch;margin:1.6rem auto 0}
+
+/* ---------- travessia / como chegar ---------- */
+.chegar-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2.5rem,6vw,5rem);align-items:center}
+.chegar-img img{border-radius:14px;aspect-ratio:3/3.6;object-fit:cover;width:100%}
+.passos{margin-top:2.4rem;display:flex;flex-direction:column}
+.passo{display:flex;gap:1.4rem;padding:1.35rem 0;border-top:1px solid var(--line)}
+.passo:last-child{border-bottom:1px solid var(--line)}
+.passo .num{font-family:var(--serif);font-style:italic;color:var(--amber);font-size:1.15rem;min-width:2.2rem}
+.passo h4{font-family:var(--serif);font-weight:400;font-size:1.2rem;margin-bottom:.25rem}
+.passo p{font-size:.88rem;color:var(--muted)}
+
+/* ---------- parceiro / transfers (dentro de como chegar) ---------- */
+.parceiro{
+  margin-top:clamp(3.5rem,7vw,5.5rem);
+  border:1px solid var(--line);border-radius:20px;
+  background:var(--night-2);
+  padding:clamp(1.8rem,4vw,3rem);
+}
+.parceiro-title{font-family:var(--serif);font-weight:400;font-size:clamp(1.7rem,3.2vw,2.5rem);line-height:1.1;margin:1rem 0 1rem}
+.parceiro-title em{font-style:italic;color:var(--amber)}
+.parceiro-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2.2rem}
+.parceiro-badge{display:flex;align-items:center;gap:1.2rem;text-align:left}
+.parceiro-badge img{height:96px;width:auto;opacity:.95}
+.parceiro-badge span{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);max-width:17ch;line-height:1.8}
+.transfer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:3rem 0 2.4rem}
+.transfer-card{background:var(--night-2);padding:2.2rem 1.8rem;transition:background .4s;display:flex;flex-direction:column}
+.transfer-card:hover{background:var(--night-3)}
+.transfer-card .preco{font-family:var(--serif);font-size:2.1rem;line-height:1;color:var(--amber)}
+.transfer-card .preco-sub{display:block;font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:.45rem}
+.transfer-card h3{font-family:var(--serif);font-weight:400;font-size:1.4rem;margin:1.1rem 0 .5rem}
+.transfer-card p{font-size:.88rem;color:var(--muted);line-height:1.6}
+.transfer-cta{display:flex;gap:.9rem;flex-wrap:wrap;align-items:center}
+.transfer-note{font-size:.82rem;color:var(--muted);margin-top:1.2rem;max-width:60ch}
+
+/* ---------- faq ---------- */
+.faq{background:var(--night-2);border-top:1px solid var(--line)}
+.faq-list{margin-top:2.6rem;max-width:820px}
+.faq-item{border-top:1px solid var(--line)}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item summary{
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;
+  padding:1.4rem 0;font-family:var(--serif);font-size:1.25rem;transition:color .3s;
+}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{color:var(--amber)}
+.faq-item summary .ic{color:var(--amber);font-size:1rem;transition:transform .35s;flex-shrink:0}
+.faq-item[open] summary .ic{transform:rotate(45deg)}
+.faq-item .a{padding:0 0 1.5rem;color:var(--muted);font-size:.93rem;max-width:60ch}
+
+/* ---------- cta final ---------- */
+.final{
+  text-align:center;position:relative;isolation:isolate;overflow:hidden;
+  padding:clamp(6rem,13vw,10rem) 0;
+}
+.final-bg{position:absolute;inset:0;z-index:-2}
+.final-bg img{width:100%;height:100%;object-fit:cover;object-position:center;opacity:.5}
+.final::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at center,rgba(6,9,25,.3) 0%,var(--night) 85%)}
+.final .star{color:var(--amber);font-size:1.5rem;text-shadow:0 0 30px rgba(255,180,58,.7);display:block;margin-bottom:1.4rem}
+.final h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.6rem,7vw,5.4rem);line-height:1.04;max-width:16ch;margin:0 auto 1.4rem}
+.final h2 em{font-style:italic;color:var(--amber)}
+.final p{color:var(--sand);max-width:46ch;margin:0 auto 2.6rem}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:3rem 0 2.2rem;background:var(--night)}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1.6rem}
+.foot-logo{font-family:var(--serif);font-size:1.15rem;display:flex;align-items:center;gap:.7rem}
+.foot-links{display:flex;gap:1.8rem;flex-wrap:wrap}
+.foot-links a{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);transition:.3s}
+.foot-links a:hover{color:var(--amber)}
+.foot-credit{width:100%;text-align:center;margin-top:2.4rem;padding-top:1.6rem;border-top:1px solid var(--line);font-size:.72rem;color:var(--muted);letter-spacing:.06em}
+.foot-credit a{color:var(--gold)}
+
+/* ---------- responsive ---------- */
+@media(max-width:960px){
+  .pilares-grid{grid-template-columns:repeat(2,1fr)}
+  .lote-track{grid-template-columns:repeat(2,1fr)}
+  .transfer-grid{grid-template-columns:1fr}
+  .manifesto-grid,.chegar-grid,.prog-intro{grid-template-columns:1fr}
+  .dia{grid-template-columns:1fr;gap:1.3rem}
+  .dia-data{position:static;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+  .dia-data .m,.dia-data .w{margin-top:0}
+  .atos{grid-template-columns:1fr}
+  .manifesto-img{order:-1;max-width:440px}
+  .chegar-img{max-width:440px}
+}
+@media(max-width:720px){
+  .nav-links{display:none}
+  .logo>span:last-child{display:none}
+  .nav-right{gap:.6rem}
+  .nav .btn{padding:.7rem 1.05rem;font-size:.68rem;letter-spacing:.08em}
+  .soc{width:32px;height:32px}
+  .hero-dots{display:none}
+  .festas-grid{grid-template-columns:1fr}
+  .festa{aspect-ratio:4/4.2}
+  .pilares-grid{grid-template-columns:1fr}
+  .hero h1{font-size:clamp(2.9rem,13vw,4.4rem)}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= SPLASH ================= -->
+<div class="splash" id="splash" aria-hidden="true">
+  <img src="assets/img/brand/simbolo.png" alt="">
+</div>
+
+<!-- ================= HEADER ================= -->
+<header id="header">
+  <nav class="nav">
+    <a href="#" class="logo"><img src="assets/img/brand/simbolo.png" alt="Símbolo do Réveillon dos Lençóis" class="logo-simbolo"><span class="logo-txt">Réveillon dos Lençóis</span></a>
+    <ul class="nav-links">
+      <li><a href="#manifesto">A Travessia</a></li>
+      <li><a href="#festas">As Festas</a></li>
+      <li><a href="#programacao">Programação</a></li>
+      <li><a href="#lotes">Ingressos</a></li>
+      <li><a href="#chegar">Como Chegar</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="nav-social">
+        <a class="soc" href="https://www.instagram.com/reveillondoslencois" target="_blank" rel="noopener" aria-label="Instagram do Réveillon dos Lençóis" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.5.2-1.9.3-.4.2-.7.4-1 .7-.3.3-.5.6-.7 1-.1.4-.3.8-.3 1.9C3.3 9.2 3.3 9.6 3.3 12s0 3.5.1 4.7c.1 1.1.2 1.5.3 1.9.2.4.4.7.7 1 .3.3.6.5 1 .7.4.1.8.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.5-.2 1.9-.3.4-.2.7-.4 1-.7.3-.3.5-.6.7-1 .1-.4.3-.8.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.5-.3-1.9-.2-.4-.4-.7-.7-1-.3-.3-.6-.5-1-.7-.4-.1-.8-.3-1.9-.3C15.5 4 15.1 4 12 4Zm0 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Zm5.2-3.1a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"/></svg></a>
+        <a class="soc" href="#" data-youtube target="_blank" rel="noopener" aria-label="YouTube do Réveillon dos Lençóis" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a2.9 2.9 0 0 0-2-2C19.2 4.7 12 4.7 12 4.7s-7.2 0-9 .5a2.9 2.9 0 0 0-2 2C.5 9 .5 12 .5 12s0 3 .5 4.8a2.9 2.9 0 0 0 2 2c1.8.5 9 .5 9 .5s7.2 0 9-.5a2.9 2.9 0 0 0 2-2c.5-1.8.5-4.8.5-4.8s0-3-.5-4.8ZM9.7 15.1V8.9l6 3.1-6 3.1Z"/></svg></a>
+      </div>
+      <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn">Garanta seu ingresso</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-bg" id="hero-bg">
+    <img src="assets/img/fundos/fundo-sol.webp" alt="Ilustração do sol nascendo entre as dunas dos Lençóis Maranhenses" class="is-active">
+    <img src="assets/img/virada-05.jpg" alt="Multidão celebrando na festa da virada do Réveillon dos Lençóis">
+    <img src="assets/img/bar-02.jpg" alt="DJs tocando sob o letreiro neon RDL no bar da praia">
+    <img src="assets/img/virada-07.jpg" alt="Pista de dança do Réveillon dos Lençóis">
+    <img src="assets/img/sabadao-02.jpg" alt="Entrada do Sabadão com placas de madeira escritas Estresse Zero">
+    <img src="assets/img/selva-01.jpg" alt="Festa com iluminação quente e decoração rústica em Atins">
+  </div>
+  <div class="hero-dots" id="hero-dots" aria-label="Fotos do evento">
+    <button class="on" aria-label="Foto 1"></button><button aria-label="Foto 2"></button><button aria-label="Foto 3"></button><button aria-label="Foto 4"></button><button aria-label="Foto 5"></button><button aria-label="Foto 6"></button>
+  </div>
+  <div class="hero-inner">
+    <p class="hero-kicker"><span class="star">✦</span> Atins · Lençóis Maranhenses · 29 Dez → 02 Jan</p>
+    <h1><img src="assets/img/brand/logo-travessia.png" alt="Réveillon dos Lençóis — Travessia das Águas"></h1>
+    <p class="hero-urgency"><span class="dot"></span> Lote 1 à venda na Sympla — o valor sobe na próxima virada de lote</p>
+    <div class="hero-sub">
+      <div class="hero-meta">
+        <div><span class="k">Onde</span><span class="v">Atins, Maranhão</span></div>
+        <div><span class="k">Quando</span><span class="v">29 dez → 02 jan · 5 dias</span></div>
+        <div><span class="k">O que</span><span class="v">A Travessia das Águas</span></div>
+      </div>
+      <div class="hero-ctas">
+        <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big">Garanta seu ingresso ✦</a>
+        <a href="#programacao" class="btn ghost big">Ver programação</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Aqui você entra inteiro, e sai diferente <i class="s">✦</i> Paraíso <i class="s">✦</i> Comunidade <i class="s">✦</i> Transformação <i class="s">✦</i> A virada mais mágica do Brasil <i class="s">✦</i></span>
+    <span>Aqui você entra inteiro, e sai diferente <i class="s">✦</i> Paraíso <i class="s">✦</i> Comunidade <i class="s">✦</i> Transformação <i class="s">✦</i> A virada mais mágica do Brasil <i class="s">✦</i></span>
+  </div>
+</div>
+
+<!-- ================= MANIFESTO ================= -->
+<section class="manifesto" id="manifesto">
+  <div class="wrap">
+    <div class="manifesto-grid">
+      <div class="manifesto-text">
+        <p class="label rv">O Manifesto</p>
+        <p class="rv d1">Existe um lugar onde o rio encontra o mar, as dunas guardam lagoas de água doce e o tempo corre no ritmo do vento.</p>
+        <p class="rv d2">Atins não é um destino. É uma <em>passagem</em>. E virar o ano aqui é atravessar — de barco, de pé na areia, de coração aberto — para o seu melhor ano.</p>
+        <p class="small rv d3">O Réveillon dos Lençóis transforma a agenda de festas em uma travessia: dias de sol, lagoa e vento, noites de música ao pé da duna, e uma virada que ninguém esquece. Sem asfalto, sem pressa, sem cerimônia — só o essencial, feito com capricho, no coração dos Lençóis Maranhenses.</p>
+      </div>
+      <figure class="manifesto-img rv d2">
+        <img src="assets/img/hero-01.jpg" alt="RdL escrito na areia molhada, na beira da água em Atins">
+        <figcaption>Escrito nas areias de Atins — RDL</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PILARES ================= -->
+<section class="pilares">
+  <div class="wrap">
+    <p class="label rv">A Experiência</p>
+    <h2 class="section-title rv d1">O que te espera <em>na virada</em></h2>
+    <p class="lead rv d2">Não é só uma festa de ano novo. É um ciclo completo de dias e noites, pensado para você viver os Lençóis por inteiro.</p>
+    <div class="pilares-grid">
+      <div class="pilar rv"><span class="n">✦ 01</span><h3>Paraíso</h3><p>Dunas, lagoas e o encontro do Rio Preguiças com o mar. O cenário natural mais impressionante do Brasil como palco da sua virada.</p></div>
+      <div class="pilar rv d1"><span class="n">✦ 02</span><h3>Comunidade</h3><p>Uma vila de pescadores que abraça quem chega. Aqui você faz amigo na fila do barco, dança com desconhecido e sai com família nova.</p></div>
+      <div class="pilar rv d2"><span class="n">✦ 03</span><h3>Música</h3><p>DJs e artistas que entendem o lugar: do sunset ao nascer do sol, a trilha sonora acompanha o vento — sem pressa e sem pausa.</p></div>
+      <div class="pilar rv d3"><span class="n">✦ 04</span><h3>Transformação</h3><p>Aqui você entra inteiro, e sai diferente. A travessia das águas é o ritual de encerrar um ciclo e abrir o próximo com o pé na areia.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FESTAS ================= -->
+<section id="festas">
+  <div class="wrap">
+    <div class="festas-head">
+      <div>
+        <p class="label rv">A Travessia</p>
+        <h2 class="section-title rv d1" style="margin-bottom:0">Uma agenda de festas,<br><em>um só movimento</em></h2>
+      </div>
+      <p class="lead rv d2" style="max-width:36ch">Cada festa é uma etapa da travessia. Juntas, elas contam a história da sua virada em Atins.</p>
+    </div>
+    <div class="festas-grid">
+      <article class="festa rv">
+        <img src="assets/img/selva-01.jpg" alt="Noite de festa com iluminação quente e decoração rústica em Atins">
+        <div class="festa-info">
+          <span class="tag">29 Dez · Pré-Réveillon</span>
+          <h3>Samba dos Lençóis</h3>
+          <p>O Maranhão é terra de tambores e batuques. A travessia abre com samba no pé, gogó preparado e a vila inteira na roda.</p>
+        </div>
+      </article>
+      <article class="festa rv d1">
+        <img src="assets/img/bar-02.jpg" alt="DJs tocando sob o letreiro neon RDL no bar da praia">
+        <div class="festa-info">
+          <span class="tag">30 Dez · 31 Dez · 02 Jan</span>
+          <h3>Bar da Praia</h3>
+          <p>Esporte, bem-estar, gastronomia local, feira criativa, massagem e muita música de frente pro mar. Acesso gratuito.</p>
+        </div>
+      </article>
+      <article class="festa rv d2">
+        <img src="assets/img/virada-05.jpg" alt="Multidão celebrando na festa da virada do Réveillon dos Lençóis">
+        <div class="festa-info">
+          <span class="tag">31 Dez · O Grande Dia</span>
+          <h3>A Virada</h3>
+          <p>Dois atos: o último pôr do sol do ano dentro do Parque e a Festa da Virada, da meia-noite ao amanhecer na praia de Atins.</p>
+        </div>
+      </article>
+      <article class="festa rv d3">
+        <img src="assets/img/sabadao-02.jpg" alt="Entrada do Sabadão com placas de madeira escritas Estresse Zero">
+        <div class="festa-info">
+          <span class="tag">02 Jan · Encerramento</span>
+          <h3>O Primeiro Sabadão do Ano</h3>
+          <p>Forró arrochado, piseiro e uma energia que só o Sabadão tem. Quem viveu a edição passada sabe do que a gente tá falando.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROGRAMAÇÃO ================= -->
+<section class="prog" id="programacao">
+  <div class="wrap">
+    <div class="prog-intro">
+      <div>
+        <p class="label rv">Nossa Programação</p>
+        <h2 class="section-title rv d1">Cinco dias para a <em>Travessia das Águas</em></h2>
+        <div class="prog-pills rv d2">
+          <span>29 Dez → 02 Jan</span><span>Música</span><span>Esporte</span><span>Bem-estar</span><span>Socioambiental</span>
+        </div>
+      </div>
+      <div class="prog-intro-text">
+        <p class="rv d1">Por entre as dunas de areias brancas e os espelhos de águas cristalinas dos Lençóis Maranhenses, faremos uma <em>travessia inesquecível</em>.</p>
+        <p class="rv d2">Seremos atravessados pelo elemento mais poderoso, o elemento da vida. Sejam bem-vindos à Travessia das Águas.</p>
+        <p class="small rv d3">Através da música, do esporte, de ações de bem-estar e de responsabilidade social e ecológica, mergulhamos nessa experiência única: compartilhando sorrisos, abraços e momentos inesquecíveis, celebrando um novo ciclo na praia mais bonita do Brasil.</p>
+      </div>
+    </div>
+
+    <div class="dias">
+
+      <div class="dia rv">
+        <div class="dia-data"><span class="d">29</span><span class="m">Dezembro</span><span class="w">Terça-feira</span></div>
+        <div class="eventos">
+          <div class="evento">
+            <div class="evento-head"><span class="h">21h00 · Pré-Réveillon</span></div>
+            <h3>Samba dos <em>Lençóis</em></h3>
+            <p>O Maranhão é terra de tambores e batuques, e numa festa de música brasileira não poderia faltar o nosso tão bom e amado samba. Preparem o gogó e o samba no pé: essa noite promete.</p>
+            <div class="lineup"><span class="k">Line up</span><span class="a">Bem Dito Samba (MA)</span><span class="a tbc">DJs a confirmar</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dia rv">
+        <div class="dia-data"><span class="d">30</span><span class="m">Dezembro</span><span class="w">Quarta-feira</span></div>
+        <div class="eventos">
+          <div class="evento">
+            <div class="evento-head"><span class="h">09h00</span><span class="free">Acesso gratuito</span></div>
+            <h3>Bar da <em>Praia</em></h3>
+            <p>Atividades esportivas, momentos de reconexão, ações de bem-estar e muita música. O nosso bar de praia oferece também o melhor da gastronomia local, drinks refrescantes, feira criativa, massagens e muito mais. E o melhor: o acesso a esse espaço é gratuito.</p>
+            <div class="lineup"><span class="k">Line up</span><span class="a">Estação Sound System (MA)</span><span class="a">Joakin (MA/SP)</span><span class="a tbc">Mais DJs a confirmar</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dia rv">
+        <div class="dia-data"><span class="d">31</span><span class="m">Dezembro</span><span class="w">Quinta-feira · O Grande Dia</span></div>
+        <div class="eventos">
+          <div class="evento">
+            <div class="evento-head"><span class="h">09h00</span><span class="free">Acesso gratuito</span></div>
+            <h3>Bar da <em>Praia</em></h3>
+            <p>Porque tudo que é bom, a gente repete. Mais um dia de sol, música e mar na frente para aquecer a virada.</p>
+            <div class="lineup"><span class="k">Line up</span><span class="a tbc">Line up a confirmar</span></div>
+          </div>
+          <div class="evento">
+            <div class="evento-head"><span class="h">Réveillon dos Lençóis</span></div>
+            <h3>Travessia das <em>Águas</em></h3>
+            <p>Viver o paraíso é algo mágico. E em um lugar de tantos encantos, dividimos esse dia em dois momentos super especiais, pensados com todo carinho para que você possa mergulhar nesse infinito.</p>
+            <div class="atos">
+              <div class="ato">
+                <span class="n">✦ 1º ato · fim de tarde</span>
+                <h4>O Último Pôr do Sol</h4>
+                <p>Uma imersão no Parque Nacional dos Lençóis Maranhenses para celebrar o último pôr do sol do ano desse paraíso. Um momento místico, de muita conexão, onde o movimento das areias parece um convite para mudanças e reflexões, lembrando que o movimento atrai. Com ativações de bangalôs, finger foods, mesas de frutas e hidratação, para uma experiência sensorial confortável e completa.</p>
+                <p class="note">✦ Não é permitido o porte e o consumo de bebidas alcoólicas dentro do Parque.</p>
+              </div>
+              <div class="ato">
+                <span class="n">✦ 2º ato · da noite ao amanhecer</span>
+                <h4>Festa da Virada</h4>
+                <p>Depois de contemplar, vamos extravasar. Celebramos a chegada do novo ano da melhor forma possível: com muita música e o astral lá em cima. Veremos o dia amanhecer na praia de Atins, a praia mais bonita do Brasil, com apresentações exclusivas de grandes artistas misturando os ritmos que são a cara da nossa cultura nortista e nordestina: reggae, brasilidades e, claro, uma pitada de house music pra balançar.</p>
+                <div class="lineup"><span class="k">Line up</span><span class="a">Neto Myller (MA)</span><span class="a">Marina e os Leones (PA)</span><span class="a">Adriano Sound (MA)</span><span class="a">Yris (PI)</span><span class="a tbc">e muito mais</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dia rv">
+        <div class="dia-data"><span class="d">02</span><span class="m">Janeiro</span><span class="w">Sábado</span></div>
+        <div class="eventos">
+          <div class="evento">
+            <div class="evento-head"><span class="h">09h00</span><span class="free">Acesso gratuito</span></div>
+            <h3>Bar da <em>Praia</em></h3>
+            <p>A despedida desse espaço aproveitando o melhor que ele pode oferecer: um bom banho de rio e pé na areia. Além, claro, de muita música e ações de bem-estar.</p>
+            <div class="lineup"><span class="k">Line up</span><span class="a tbc">Line up a confirmar</span></div>
+          </div>
+          <div class="evento">
+            <div class="evento-head"><span class="h">22h00 · Encerramento</span></div>
+            <h3>O Primeiro <em>Sabadão</em> do Ano</h3>
+            <p>Quem viveu a edição passada sabe do que a gente tá falando. O Sabadão é um evento antropológico que movimenta a região dos Lençóis na alta e na baixa temporada, com muito forró arrochado, piseiro e uma energia que só o Sabadão tem.</p>
+            <div class="lineup"><span class="k">Line up</span><span class="a">DJ Auriê</span><span class="a">Jackson e Banda Doce Veneno</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="prog-cta rv">
+      <p class="prog-note">Programação sujeita a ajustes. Line ups completos e horários dos atos da virada serão confirmados nas nossas redes.</p>
+      <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big">Garanta seu ingresso ✦</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALERIA ================= -->
+<section class="galeria">
+  <div class="wrap">
+    <p class="label rv">Memórias</p>
+    <h2 class="section-title rv d1" style="margin-bottom:0">Quem foi, <em>voltou diferente</em></h2>
+  </div>
+  <div class="strip" aria-label="Galeria de fotos das edições anteriores">
+    <figure><img src="assets/img/virada-02.jpg" alt="Momento da festa da virada"></figure>
+    <figure><img src="assets/img/virada-03.jpg" alt="Público celebrando no Réveillon dos Lençóis"></figure>
+    <figure><img src="assets/img/selva-02.jpg" alt="Ambiente da festa Selva Mística"></figure>
+    <figure><img src="assets/img/virada-04.jpg" alt="Festa na praia em Atins" loading="lazy"></figure>
+    <figure><img src="assets/img/bar-01.jpg" alt="Bar da praia ao entardecer" loading="lazy"></figure>
+    <figure><img src="assets/img/virada-06.jpg" alt="Celebração da virada do ano" loading="lazy"></figure>
+    <figure><img src="assets/img/sabadao-01.jpg" alt="Entrada do Sabadão à noite" loading="lazy"></figure>
+    <figure><img src="assets/img/virada-07.jpg" alt="Pista de dança do Réveillon dos Lençóis" loading="lazy"></figure>
+    <figure><img src="assets/img/virada-08.jpg" alt="Amigos celebrando juntos na virada" loading="lazy"></figure>
+  </div>
+  <p class="strip-hint">← Deslize para ver mais →</p>
+</section>
+
+<!-- ================= LOTES / INGRESSOS ================= -->
+<section class="lotes" id="lotes">
+  <div class="lotes-bg"><img src="assets/img/fundos/fundo-dunas.webp" alt="" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="lotes-inner">
+      <p class="label rv">Ingressos</p>
+      <h2 class="section-title rv d1">Faltam <em>poucos meses</em><br>para a travessia</h2>
+      <div class="countdown rv d2" id="countdown" aria-label="Contagem regressiva para a virada">
+        <div class="cd-item"><span class="num" id="cd-d">—</span><span class="u">dias</span></div>
+        <div class="cd-item"><span class="num" id="cd-h">—</span><span class="u">horas</span></div>
+        <div class="cd-item"><span class="num" id="cd-m">—</span><span class="u">min</span></div>
+        <div class="cd-item"><span class="num" id="cd-s">—</span><span class="u">seg</span></div>
+      </div>
+      <div class="lote-track rv d2">
+        <div class="lote"><span class="k">Lote 0</span><span class="v">Pré-venda</span><span class="st">Esgotado</span></div>
+        <div class="lote active"><span class="k">Lote 1</span><span class="v">À venda na Sympla</span><span class="st">Últimas semanas</span></div>
+        <div class="lote"><span class="k">Lote 2</span><span class="v">Ago — Set</span><span class="st">Em breve</span></div>
+        <div class="lote"><span class="k">Lote 3</span><span class="v">Out — Nov</span><span class="st">Em breve</span></div>
+      </div>
+      <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big rv d3" id="cta-comprar">Garanta seu ingresso ✦</a>
+      <p class="lotes-note rv d3">Cada virada de lote, o valor sobe. Quem garante antes, paga menos — e ainda escolhe com calma pousada, voo e travessia. Ingressos limitados pela capacidade da vila.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO CHEGAR ================= -->
+<section id="chegar">
+  <div class="wrap">
+    <div class="chegar-grid">
+      <figure class="chegar-img rv">
+        <img src="assets/img/fundos/fundo-rio.webp" alt="Ilustração do Rio Preguiças serpenteando entre as dunas ao entardecer">
+      </figure>
+      <div>
+        <p class="label rv">Como Chegar</p>
+        <h2 class="section-title rv d1">Chegar já é <em>parte do ritual</em></h2>
+        <p class="lead rv d2">Atins fica no delta entre o Rio Preguiças e o mar, na borda do Parque Nacional dos Lençóis Maranhenses. Não tem asfalto até aqui — e é exatamente isso que protege a magia.</p>
+        <div class="passos">
+          <div class="passo rv"><span class="num">01</span><div><h4>Voe para São Luís (SLZ)</h4><p>Capital do Maranhão, com voos diretos das principais capitais do país.</p></div></div>
+          <div class="passo rv d1"><span class="num">02</span><div><h4>Siga até Barreirinhas</h4><p>Cerca de 4h de carro ou transfer — a porta de entrada dos Lençóis.</p></div></div>
+          <div class="passo rv d2"><span class="num">03</span><div><h4>Desça o Rio Preguiças de lancha</h4><p>Uma hora de travessia entre manguezais e dunas até a vila de Atins. A viagem já vale o ingresso.</p></div></div>
+          <div class="passo rv d3"><span class="num">04</span><div><h4>Pé na areia, celular no bolso</h4><p>Chegou. Agora é só viver a virada. A gente cuida do resto.</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parceira oficial de transfers -->
+    <div class="parceiro rv" id="transfers">
+      <div class="parceiro-head">
+        <div>
+          <p class="label">Parceira Oficial</p>
+          <h3 class="parceiro-title">Transfers e logística<br><em>com a Explore Atins</em></h3>
+          <p class="lead" style="max-width:52ch">A Explore Atins é a parceira oficial do RDL para você chegar, circular e voltar sem preocupação — do aeroporto em São Luís até a areia da festa.</p>
+        </div>
+        <div class="parceiro-badge">
+          <img src="assets/img/brand/logo-explore.png" alt="Logo da Explore Atins">
+          <span>Explore Atins · Transfers &amp; Logística</span>
+        </div>
+      </div>
+      <div class="transfer-grid">
+        <div class="transfer-card">
+          <div><span class="preco">R$ 20</span><span class="preco-sub">por pessoa · taxa fixa</span></div>
+          <h3>Transfer para as festas</h3>
+          <p>De carro ou quadriciclo, entre sua pousada e as festas da travessia. Valor fixo por pessoa, por trecho — sem surpresa no fim da noite.</p>
+        </div>
+        <div class="transfer-card">
+          <div><span class="preco">A combinar</span><span class="preco-sub">pacote fechado</span></div>
+          <h3>Terrestre São Luís → Barreirinhas</h3>
+          <p>Saída do aeroporto ou do seu hotel em São Luís até Barreirinhas, com horário casado com a travessia de lancha.</p>
+        </div>
+        <div class="transfer-card">
+          <div><span class="preco">A combinar</span><span class="preco-sub">pacote fechado</span></div>
+          <h3>Lancha até Atins</h3>
+          <p>A descida do Rio Preguiças até a vila. Feche o pacote completo São Luís → Atins de uma vez e chegue sem pensar em logística.</p>
+        </div>
+      </div>
+      <div class="transfer-cta">
+        <a href="https://wa.me/5598981175867?text=Oi!%20Quero%20cotar%20transfers%20para%20o%20R%C3%A9veillon%20dos%20Len%C3%A7%C3%B3is%20em%20Atins." target="_blank" rel="noopener" class="btn">Cotar meu transfer ✦</a>
+        <a href="https://exploreatins.com" target="_blank" rel="noopener" class="btn ghost">Conhecer a Explore Atins</a>
+      </div>
+      <p class="transfer-note">Os transfers para as festas funcionam durante toda a programação. Pacotes São Luís → Barreirinhas → Atins são montados sob medida — quanto antes reservar, melhor o horário.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq">
+  <div class="wrap">
+    <p class="label rv">Dúvidas Frequentes</p>
+    <h2 class="section-title rv d1">Antes de <em>atravessar</em></h2>
+    <div class="faq-list rv d2">
+      <details class="faq-item">
+        <summary>O ingresso inclui todas as festas? <span class="ic">✦</span></summary>
+        <p class="a">A programação completa dos cinco dias está publicada na seção <a href="#programacao" style="color:var(--gold)">Programação</a>. Os dias de Bar da Praia têm acesso gratuito; o formato dos ingressos para as festas está detalhado na página oficial da Sympla.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Onde me hospedo em Atins? <span class="ic">✦</span></summary>
+        <p class="a">Atins tem pousadas charmosas, casas de temporada e campings — mas a capacidade da vila é limitada e o fim de ano lota com meses de antecedência. Garanta o ingresso primeiro e reserve a hospedagem logo em seguida; indicamos parceiros para quem já tem ingresso.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Como me desloco em Atins durante as festas? <span class="ic">✦</span></summary>
+        <p class="a">A Explore Atins, parceira oficial do RDL, faz o transfer entre pousadas e festas de carro ou quadriciclo por taxa fixa de R$ 20 por pessoa, por trecho. Ela também monta pacotes de transfer terrestre São Luís → Barreirinhas e lancha até Atins, com valores a combinar.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Dá para ir em grupo? <span class="ic">✦</span></summary>
+        <p class="a">Dá — e é ainda melhor. Muita gente fecha casa e lancha em grupo. Começar a planejar cedo é o segredo: por isso abrimos as vendas com tanta antecedência.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Como funciona a compra? <span class="ic">✦</span></summary>
+        <p class="a">As vendas acontecem por lotes, com valores progressivos, pela Sympla. Use somente o <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" style="color:var(--gold)">link oficial</a> deste site e da bio do nosso Instagram — desconfie de qualquer outro canal.</p>
+      </details>
+      <details class="faq-item">
+        <summary>E se eu nunca fui aos Lençóis? <span class="ic">✦</span></summary>
+        <p class="a">Melhor ainda: não existe primeira vez melhor do que virar o ano dentro do parque. Aproveite os dias antes e depois do evento para conhecer as lagoas, fazer a travessia até Lagoa Bonita e viver Atins com calma.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="final">
+  <div class="final-bg"><img src="assets/img/fundos/fundo-olho.webp" alt="" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="star rv">✦</span>
+    <h2 class="rv d1">Seu melhor ano começa <em>do outro lado do rio</em></h2>
+    <p class="rv d2">A pré-venda esgotou em dias. O lote atual é limitado. E dezembro chega mais rápido do que parece.</p>
+    <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big rv d3" id="cta-final">Garanta seu ingresso ✦</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap foot">
+    <span class="foot-logo"><img src="assets/img/brand/simbolo.png" alt="Símbolo do Réveillon dos Lençóis" style="height:22px;width:auto"><span>Réveillon dos Lençóis</span></span>
+    <div class="foot-links">
+      <a href="https://www.instagram.com/reveillondoslencois" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" data-youtube target="_blank" rel="noopener">YouTube</a>
+      <a href="#manifesto">A Travessia</a>
+      <a href="#programacao">Programação</a>
+      <a href="#lotes">Ingressos</a>
+    </div>
+    <p class="foot-credit">© 2026 Réveillon dos Lençóis · Atins, Maranhão — Brasil · Site por <a href="#" rel="noopener">Digihook</a></p>
+  </div>
+</footer>
+
+<script>
+// ===== LINKS (trocar aqui quando precisar) =====
+const YOUTUBE_URL=''; // ex: 'https://www.youtube.com/@reveillondoslencois'
+document.querySelectorAll('[data-youtube]').forEach(a=>{if(YOUTUBE_URL){a.href=YOUTUBE_URL}else{a.addEventListener('click',e=>e.preventDefault())}});
+
+// hero: carrossel crossfade
+const slides=[...document.querySelectorAll('#hero-bg img')],dots=[...document.querySelectorAll('#hero-dots button')];
+let cur=0,heroTimer;
+function goSlide(i){slides[cur].classList.remove('is-active');dots[cur].classList.remove('on');cur=(i+slides.length)%slides.length;slides[cur].classList.add('is-active');dots[cur].classList.add('on')}
+function heroAuto(){clearInterval(heroTimer);heroTimer=setInterval(()=>goSlide(cur+1),5500)}
+dots.forEach((d,i)=>d.addEventListener('click',()=>{goSlide(i);heroAuto()}));
+heroAuto();
+
+// splash de abertura (~0,5s e some)
+const splash=document.getElementById('splash');
+setTimeout(()=>{splash.classList.add('out');setTimeout(()=>splash.remove(),450)},550);
+
+// header solid on scroll
+const header=document.getElementById('header');
+addEventListener('scroll',()=>header.classList.toggle('solid',scrollY>40),{passive:true});
+
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+// countdown → meia-noite da virada (horário de Atins/São Luís, UTC-3)
+const target=new Date('2027-01-01T00:00:00-03:00').getTime();
+const pad=n=>String(n).padStart(2,'0');
+const $=id=>document.getElementById(id);
+function tick(){
+  const diff=Math.max(0,target-Date.now());
+  $('cd-d').textContent=Math.floor(diff/864e5);
+  $('cd-h').textContent=pad(Math.floor(diff/36e5)%24);
+  $('cd-m').textContent=pad(Math.floor(diff/6e4)%60);
+  $('cd-s').textContent=pad(Math.floor(diff/1e3)%60);
+}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
