@@ -172,11 +172,10 @@ header.solid{background:rgba(6,9,25,.86);backdrop-filter:blur(14px);border-botto
   text-shadow:0 1px 18px rgba(6,9,25,.6);
 }
 .hero-kicker .star{color:var(--amber)}
-.hero h1{margin:0}
-.hero h1 img{
-  width:min(620px,84vw);height:auto;
-  filter:drop-shadow(0 10px 44px rgba(6,9,25,.65));
-}
+.hero h1{margin:0;display:flex;flex-direction:column;align-items:center;width:min(620px,84vw);gap:clamp(.8rem,1.8vw,1.15rem)}
+.hero h1 img{height:auto;filter:drop-shadow(0 10px 44px rgba(6,9,25,.65))}
+.hero h1 .logo-rdl{width:100%}
+.hero h1 .logo-aguas{width:72%}
 .hero-urgency{
   display:inline-flex;align-items:center;gap:.6rem;margin-top:1.6rem;
   font-size:.78rem;letter-spacing:.08em;color:var(--gold);
@@ -472,14 +471,17 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.2rem;background:var(--n
     <button class="on" aria-label="Foto 1"></button><button aria-label="Foto 2"></button><button aria-label="Foto 3"></button><button aria-label="Foto 4"></button><button aria-label="Foto 5"></button><button aria-label="Foto 6"></button>
   </div>
   <div class="hero-inner">
-    <p class="hero-kicker"><span class="star">✦</span> Atins · Lençóis Maranhenses · 29 Dez → 02 Jan</p>
-    <h1><img src="assets/img/brand/logo-travessia.png" alt="Réveillon dos Lençóis — Travessia das Águas"></h1>
-    <p class="hero-urgency"><span class="dot"></span> Lote 1 à venda na Sympla — o valor sobe na próxima virada de lote</p>
+    <p class="hero-kicker"><span class="star">✦</span> Atins · Lençóis Maranhenses · 29, 30, 31 Dez e 02 Jan</p>
+    <h1>
+      <img class="logo-rdl" src="assets/img/brand/logo-reveillon.png" alt="Réveillon dos Lençóis">
+      <img class="logo-aguas" src="assets/img/brand/logo-aguas.png" alt="Travessia das Águas">
+    </h1>
+    <p class="hero-urgency"><span class="dot"></span> Lote 2 à venda na Sympla — o valor sobe na próxima virada de lote</p>
     <div class="hero-sub">
       <div class="hero-meta">
         <div><span class="k">Onde</span><span class="v">Atins, Maranhão</span></div>
-        <div><span class="k">Quando</span><span class="v">29 dez → 02 jan · 5 dias</span></div>
-        <div><span class="k">O que</span><span class="v">A Travessia das Águas</span></div>
+        <div><span class="k">Quando</span><span class="v">29, 30, 31 dez e 02 jan · 4 dias</span></div>
+        <div><span class="k">O que</span><span class="v">Evento multiday</span></div>
       </div>
       <div class="hero-ctas">
         <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big">Garanta seu ingresso ✦</a>
@@ -583,9 +585,9 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.2rem;background:var(--n
     <div class="prog-intro">
       <div>
         <p class="label rv">Nossa Programação</p>
-        <h2 class="section-title rv d1">Cinco dias para a <em>Travessia das Águas</em></h2>
+        <h2 class="section-title rv d1">Quatro dias para a <em>Travessia das Águas</em></h2>
         <div class="prog-pills rv d2">
-          <span>29 Dez → 02 Jan</span><span>Música</span><span>Esporte</span><span>Bem-estar</span><span>Socioambiental</span>
+          <span>29 · 30 · 31 Dez e 02 Jan</span><span>Música</span><span>Esporte</span><span>Bem-estar</span><span>Socioambiental</span>
         </div>
       </div>
       <div class="prog-intro-text">
@@ -714,9 +716,9 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.2rem;background:var(--n
       </div>
       <div class="lote-track rv d2">
         <div class="lote"><span class="k">Lote 0</span><span class="v">Pré-venda</span><span class="st">Esgotado</span></div>
-        <div class="lote active"><span class="k">Lote 1</span><span class="v">À venda na Sympla</span><span class="st">Últimas semanas</span></div>
-        <div class="lote"><span class="k">Lote 2</span><span class="v">Ago — Set</span><span class="st">Em breve</span></div>
-        <div class="lote"><span class="k">Lote 3</span><span class="v">Out — Nov</span><span class="st">Em breve</span></div>
+        <div class="lote"><span class="k">Lote 1</span><span class="v">Encerrado</span><span class="st">Esgotado</span></div>
+        <div class="lote active"><span class="k">Lote 2</span><span class="v">À venda na Sympla</span><span class="st">Lote atual</span></div>
+        <div class="lote"><span class="k">Lote 3</span><span class="v">Última virada</span><span class="st">Em breve</span></div>
       </div>
       <a href="https://www.sympla.com.br/evento/rEveillon-dos-lenCOis---travessia-das-Aguas/3517942" target="_blank" rel="noopener" class="btn big rv d3" id="cta-comprar">Garanta seu ingresso ✦</a>
       <p class="lotes-note rv d3">Cada virada de lote, o valor sobe. Quem garante antes, paga menos — e ainda escolhe com calma pousada, voo e travessia. Ingressos limitados pela capacidade da vila.</p>
@@ -791,7 +793,7 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.2rem;background:var(--n
     <div class="faq-list rv d2">
       <details class="faq-item">
         <summary>O ingresso inclui todas as festas? <span class="ic">✦</span></summary>
-        <p class="a">A programação completa dos cinco dias está publicada na seção <a href="#programacao" style="color:var(--gold)">Programação</a>. Os dias de Bar da Praia têm acesso gratuito; o formato dos ingressos para as festas está detalhado na página oficial da Sympla.</p>
+        <p class="a">A programação completa dos quatro dias está publicada na seção <a href="#programacao" style="color:var(--gold)">Programação</a>. Os dias de Bar da Praia têm acesso gratuito; o formato dos ingressos para as festas está detalhado na página oficial da Sympla.</p>
       </details>
       <details class="faq-item">
         <summary>Onde me hospedo em Atins? <span class="ic">✦</span></summary>
